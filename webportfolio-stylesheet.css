@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+header{
+    background-color: gray;
+    color: black;
+}
+body{
+    color: white;
+    background-color: black;
+      
+}
+footer{
+    color: black;
+    background-color: white;
+}
