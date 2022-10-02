@@ -1,14 +1,44 @@
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
 header{
-    background-color: gray;
-    color: black;
+    
+    float: left;
+    top:0px;
+    padding:0px;
+    margin: 0px
+    front-size: 1em;
 }
 body{
+    text-align: center;
+    
+    font-family: 'Rubik Dirt', cursive;
+    padding-top: 12%;
+
     color: white;
     background-color: black;
+}
       
+p.landing-text{
+    font-size: 4em;
 }
 footer{
+    position:fixed;
+    font-size: 1em;
+    margin: 0px;
+    bottom:0px;
+    width:100%;
+    text-align: left;
     color: black;
     background-color: white;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    display: inline;
+    padding: 1%;
+  }
+  .active {
+    background-color: #04AA6D;
+  }
